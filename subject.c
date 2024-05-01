@@ -45,7 +45,7 @@ int main(){
 		if(strcmp(hint, arr[num]) == 0){ // 현재 현황이 정답 문자와 동일한 경우 
 			printf("%s\n", arr[num]); // 정답 표시
 			printf("You win!\n"); // 승리 표시
-			exit(0); // 반복문 벗어남 
+			exit(0); // 프로그램 종료 
 		}
 	}
 	// 남은 기회를 모두 소진 했을 경우
