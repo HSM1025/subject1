@@ -60,6 +60,6 @@ int main(){
 		}
 	}
 	// 남은 기회를 모두 소진 했을 경우
-	printf("answer : %s\n", arr[num]); // 정답 표시
+	printf("\nanswer : %s\n", arr[num]); // 정답 표시
 	printf("You lose.."); // 패배 표시
 }
